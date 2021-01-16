@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('../img/night.jpg'); */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 30px;
+    background: rgba(255, 255, 255, .8);
+    overflow: hidden;
+}
+
+.time_section {
+    margin-bottom: 70px;
+}
+
+.time_section h1 {
+    font-size: 6rem;
+    margin-bottom: 15px;
+}
+
+.time_section h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.task_section h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.task_section {
+    color: #3c3c3c;
+}
+
+.task_section h4:last-child {
+    margin-top: 15px;
+    display: inline;
+}
+
+.time_section h2 span:focus {
+    outline: 2px solid lightgray;
+}
+
+.task_section h4:last-child:focus {
+    outline: 2px solid lightgray;
+}
+
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    html {
+        font-size: 7px;
+    }
+}

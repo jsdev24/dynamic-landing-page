@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dynamic Landing Page</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="time_section">
+            <h1>
+                <span id="hour"></span> :
+                <span id="minute"></span> :
+                <span id="second"></span>
+                <span id="time_abbr"></span>
+            </h1>
+            <h2><span id="greetings"></span> <span id="name" contenteditable="true"></span></h2>
+        </div>
+        <div class="task_section">
+            <h4>What Is Your Focus For Today?</h4>
+            <h4 id="task" contenteditable="true"></h4>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
